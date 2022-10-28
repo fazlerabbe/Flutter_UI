@@ -5,6 +5,7 @@ import 'package:my_app1/LIstGrid.dart';
 import 'package:my_app1/alert.dart';
 import 'package:my_app1/animatedWidget.dart';
 import 'package:my_app1/bottom_Sheet.dart';
+import 'package:my_app1/chackBoxWidget.dart';
 import 'package:my_app1/dropDownWidget.dart';
 import 'package:my_app1/formWidget.dart';
 import 'package:my_app1/image.dart';
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         theme:
             ThemeData(brightness: Brightness.light, primaryColor: Colors.red),
-        home: ImagePickerWidget()
+        home:ChackBoxWidget()
         );
   }
 }
